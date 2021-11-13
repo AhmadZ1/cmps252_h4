@@ -1,6 +1,6 @@
 import java.time.LocalTime;
 
-public interface Schedule {
+public interface ISchedule {
 	String getRoom();
 	LocalTime getFromTime();
 	LocalTime getToTime();
