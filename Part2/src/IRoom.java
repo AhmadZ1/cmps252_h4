@@ -1,5 +1,5 @@
 
-public interface Room {
+public interface IRoom {
 	String getBuilding();
 	String getRoomNumber();
 }

@@ -1,4 +1,4 @@
-public interface Course {
+public interface ICourse {
 	String getCrn();
 	String getSubject();
 	String getCourse_num();

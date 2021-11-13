@@ -1,5 +1,5 @@
 
-public interface Instructor {
+public interface IInstructor {
 	String getFirstName();
 	String getLastName();
 }
