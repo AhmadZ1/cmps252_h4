@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class HW4 {
+public class HW4_Part2 {
 
 	public static void main(String[] args) {
 		var t1 = LocalTime.parse("14:52");
