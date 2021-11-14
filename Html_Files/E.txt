@@ -28874,10 +28874,10 @@
 <TD>AS</TD>                                                                     
 <TD>0</TD>                                                                      
 <TD>50</TD>                                                                     
-<TD>1500</TD>                                                                   
-<TD>1550</TD>                                                                   
-<TD>BLISS</TD>                                                                  
-<TD>203</TD>                                                                    
+<TD>1400</TD>                                                                   
+<TD>1450</TD>                                                                   
+<TD>NICELY</TD>                                                                 
+<TD>212</TD>                                                                    
 <TD>M</TD>                                                                      
 <TD>.</TD>                                                                      
 <TD>W</TD>                                                                      
