@@ -6,6 +6,6 @@ import java.nio.file.Paths;
 public class Downloader implements IDownloader {
 	@Override
 	public void downloadHtmlToFile(String url, String file) {
-		try { if (new File(file).exists()) return; Files.copy(new URL(url).openStream(), Paths.get(file)); } catch(Exception ex) {}
+		try { File f = new File(file); if (f.exists()) f.delete(); Files.copy(new URL(url).openStream(), Paths.get(file)); } catch(Exception ex) {}
 	}
 }
