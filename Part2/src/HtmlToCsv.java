@@ -6,25 +6,24 @@ import java.nio.file.Path;
 public class HtmlToCsv implements IHtmlToCsv {
 	@Override
 	public void htmlToCsv(String htmlFile, String csvFile) throws Exception {
-		if (new File(csvFile).exists()) return;
+		File f = new File(csvFile);
+		if (f.exists()) f.delete();
 		String html = Files.readString(Path.of(htmlFile));
-		int length = html.length();
 		int indexOfFall = html.indexOf("Fall");
-		PrintStream output = new PrintStream(new File(csvFile));
 		if (indexOfFall < 0) return;
-		String curr = "";
-		for (int i = indexOfFall; i < length; ++i) {
-			if (html.charAt(i) == ' ') continue;
-			if (html.charAt(i) == '>') {
-				if (curr.equals("/TR")) output.println();
-				curr = "";
+		html = html.substring(indexOfFall);
+		html = html.substring(0, html.indexOf("</TABLE>"));
+		PrintStream output = new PrintStream(new File(csvFile));
+		String[] lines = html.split("</TR>");
+		for (String line : lines) {
+			String[] row = line.split("</TD>");
+			String str = "";
+			for (String s : row) {
+				str += s.trim().replaceAll("<TD>", "").replaceAll("\n", "") + ",";
 			}
-			else if (html.charAt(i) == '<') {
-				curr = curr.replaceFirst("\n", "");
-				if (!curr.isEmpty() && !curr.equals("\n")) output.print(curr + ",");
-				curr = "";
-			}
-			else curr += html.charAt(i);
+			if (str.trim().equals("\n") || str.isBlank() || str.split(",").length < 35) continue;
+			output.println(str);
 		}
+		
 	}
 }

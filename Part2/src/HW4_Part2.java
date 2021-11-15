@@ -3,8 +3,8 @@ import java.util.ArrayList;
 
 public class HW4_Part2 {
 	static final String base_url = "https://www-banner.aub.edu.lb/catalog/schd_";
-	static final String html_files_path = "X:\\252\\cmps252_h4\\Html_Files\\";
-	static final String csv_files_path = "X:\\252\\cmps252_h4\\Csv_Files\\";
+	static final String html_files_path = "C:\\Users\\acer\\OneDrive\\Desktop\\Test\\";
+	static final String csv_files_path = "C:\\Users\\acer\\OneDrive\\Desktop\\Test\\";
 	static final String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	public static void main(String[] args) throws Exception {
 		System.out.println("Hello");
