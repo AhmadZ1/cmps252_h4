@@ -1168,8 +1168,8 @@
 <TD>6</TD>                                                                      
 <TD>6</TD>                                                                      
 <TD>EA</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>12</TD>                                                                     
+<TD>2</TD>                                                                      
+<TD>10</TD>                                                                     
 <TD>1400</TD>                                                                   
 <TD>1800</TD>                                                                   
 <TD>.</TD>                                                                      
@@ -1206,8 +1206,8 @@
 <TD>0</TD>                                                                      
 <TD>0</TD>                                                                      
 <TD>EA</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>10</TD>                                                                     
+<TD>1</TD>                                                                      
+<TD>9</TD>                                                                      
 <TD>.</TD>                                                                      
 <TD>.</TD>                                                                      
 <TD>.</TD>                                                                      
@@ -1244,8 +1244,8 @@
 <TD>6</TD>                                                                      
 <TD>6</TD>                                                                      
 <TD>EA</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>6</TD>                                                                      
+<TD>1</TD>                                                                      
+<TD>5</TD>                                                                      
 <TD>.</TD>                                                                      
 <TD>.</TD>                                                                      
 <TD>.</TD>                                                                      
@@ -1434,8 +1434,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>EA</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>12</TD>                                                                     
+<TD>1</TD>                                                                      
+<TD>11</TD>                                                                     
 <TD>1100</TD>                                                                   
 <TD>1350</TD>                                                                   
 <TD>.</TD>                                                                      
@@ -1472,8 +1472,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>EA</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>12</TD>                                                                     
+<TD>4</TD>                                                                      
+<TD>8</TD>                                                                      
 <TD>0930</TD>                                                                   
 <TD>1050</TD>                                                                   
 <TD>.</TD>                                                                      
@@ -1510,8 +1510,8 @@
 <TD>0</TD>                                                                      
 <TD>0</TD>                                                                      
 <TD>EA</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>24</TD>                                                                     
+<TD>8</TD>                                                                      
+<TD>16</TD>                                                                     
 <TD>1800</TD>                                                                   
 <TD>1930</TD>                                                                   
 <TD>.</TD>                                                                      
