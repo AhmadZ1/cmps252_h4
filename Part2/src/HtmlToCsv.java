@@ -21,7 +21,7 @@ public class HtmlToCsv implements IHtmlToCsv {
 			for (String s : row) {
 				str += s.trim().replaceAll("<TD>", "").replaceAll("\n", "") + ",";
 			}
-			if (str.trim().equals("\n") || str.isBlank() || str.split(",").length < 35) continue;
+			if (str.trim().equals("\n") || str.isBlank() || row.length < 35) continue;
 			output.println(str);
 		}
 		
