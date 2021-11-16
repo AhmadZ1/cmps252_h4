@@ -598,8 +598,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>AS</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>22</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>1100</TD>                                                                   
 <TD>1215</TD>                                                                   
 <TD>NICELY</TD>                                                                 
@@ -636,8 +636,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>AS</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>23</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>1230</TD>                                                                   
 <TD>1345</TD>                                                                   
 <TD>NICELY</TD>                                                                 
@@ -674,8 +674,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>AS</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>23</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>1400</TD>                                                                   
 <TD>1515</TD>                                                                   
 <TD>NICELY</TD>                                                                 
@@ -712,8 +712,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>AS</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>12</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>1400</TD>                                                                   
 <TD>1515</TD>                                                                   
 <TD>NICELY</TD>                                                                 

@@ -560,8 +560,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>28</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>1100</TD>                                                                   
 <TD>1215</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -598,8 +598,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>28</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>1230</TD>                                                                   
 <TD>1345</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -636,8 +636,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>28</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>1400</TD>                                                                   
 <TD>1515</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -674,8 +674,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>28</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>0800</TD>                                                                   
 <TD>0915</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -712,8 +712,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>28</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>0930</TD>                                                                   
 <TD>1045</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -750,8 +750,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>28</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>1100</TD>                                                                   
 <TD>1215</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -788,8 +788,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
 <TD>28</TD>                                                                     
+<TD>0</TD>                                                                      
 <TD>1530</TD>                                                                   
 <TD>1645</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -826,8 +826,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>28</TD>                                                                     
+<TD>26</TD>                                                                     
+<TD>2</TD>                                                                      
 <TD>1700</TD>                                                                   
 <TD>1815</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -864,8 +864,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>32</TD>                                                                     
+<TD>15</TD>                                                                     
+<TD>17</TD>                                                                     
 <TD>1400</TD>                                                                   
 <TD>1515</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -902,8 +902,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>32</TD>                                                                     
+<TD>17</TD>                                                                     
+<TD>15</TD>                                                                     
 <TD>1230</TD>                                                                   
 <TD>1345</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -940,8 +940,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>22</TD>                                                                     
+<TD>16</TD>                                                                     
+<TD>6</TD>                                                                      
 <TD>0930</TD>                                                                   
 <TD>1045</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -978,8 +978,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>32</TD>                                                                     
+<TD>15</TD>                                                                     
+<TD>17</TD>                                                                     
 <TD>1230</TD>                                                                   
 <TD>1345</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -1016,8 +1016,8 @@
 <TD>3</TD>                                                                      
 <TD>3</TD>                                                                      
 <TD>SB</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>42</TD>                                                                     
+<TD>36</TD>                                                                     
+<TD>6</TD>                                                                      
 <TD>1800</TD>                                                                   
 <TD>2030</TD>                                                                   
 <TD>OSB</TD>                                                                    
@@ -1092,8 +1092,8 @@
 <TD>2</TD>                                                                      
 <TD>2</TD>                                                                      
 <TD>FM</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>11</TD>                                                                     
+<TD>8</TD>                                                                      
+<TD>3</TD>                                                                      
 <TD>1100</TD>                                                                   
 <TD>1459</TD>                                                                   
 <TD>.</TD>                                                                      
@@ -1130,8 +1130,8 @@
 <TD>4</TD>                                                                      
 <TD>4</TD>                                                                      
 <TD>FM</TD>                                                                     
-<TD>0</TD>                                                                      
-<TD>13</TD>                                                                     
+<TD>8</TD>                                                                      
+<TD>5</TD>                                                                      
 <TD>0800</TD>                                                                   
 <TD>1259</TD>                                                                   
 <TD>.</TD>                                                                      

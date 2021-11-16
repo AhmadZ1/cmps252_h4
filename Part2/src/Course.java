@@ -52,11 +52,13 @@ public class Course implements ICourse {
 
 	@Override
 	public LocalTime getBegin_time() {
+		if (arr[11].length() < 4) return null;
 		return LocalTime.parse(arr[11].substring(0, 2) + ":" + arr[11].substring(2));
 	}
 
 	@Override
 	public LocalTime getEnd_time() {
+		if (arr[12].length() < 4) return null;
 		return LocalTime.parse(arr[12].substring(0, 2) + ":" + arr[12].substring(2));
 	}
 
