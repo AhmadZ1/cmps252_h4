@@ -1,5 +1,5 @@
 
-public class Room implements IRoom, Comparable {
+public class Room implements IRoom {
 	String building, number;
 	
 	public Room() {}
@@ -32,8 +32,8 @@ public class Room implements IRoom, Comparable {
 	}
 
 	@Override
-	public int compareTo(Object o) {
-		return toString().compareTo(o.toString());
+	public int compareTo(IRoom o) {
+		return this.toString().compareTo((o.toString()));
 	}
-
+	
 }

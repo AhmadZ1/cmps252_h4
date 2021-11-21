@@ -2,9 +2,11 @@ import java.time.LocalTime;
 
 public class Course implements ICourse {
 	String[] arr;
+	
 	public Course(String[] arr) {
 		this.arr = arr;
 	}
+	
 	@Override
 	public String getCrn() {
 		return arr[1];
@@ -110,6 +112,10 @@ public class Course implements ICourse {
 	@Override
 	public String getInstructor_last() {
 		return arr[34];
+	}
+	
+	public String toString() {
+		return this.getSubject() + " " + this.getCourse_num();
 	}
 
 }

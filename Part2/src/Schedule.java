@@ -1,31 +1,34 @@
 import java.time.LocalTime;
 
+
 public class Schedule implements ISchedule {
-	String room, course, days = "";
+	IRoom room;
+	ICourse course;
+	String days = "";
 	LocalTime fromTime, toTime;
-	Instructor instructor;
+	IInstructor instructor;
 	
 	public Schedule() {}
 	
 	public Schedule(ICourse Course) {
-		this.room = Course.getBldg() + " " + Course.getRoom();
-		this.fromTime = Course.getBegin_time();
-		this.toTime = Course.getEnd_time();
-		this.instructor = new Instructor(Course.getInstructor_first(), Course.getInstructor_last());
-		this.course = Course.getSubject() + " " + Course.getCourse_num();
-		if (Course.getMonday()) this.days += "M";
-		if (Course.getTuesday()) this.days += "T";
-		if (Course.getWednesday()) this.days += "W";
-		if (Course.getThursday()) this.days += "R";
-		if (Course.getFriday()) this.days += "F";
-		if (Course.getSaturday()) this.days += "S";
+		this.course = Course;
+		this.room = new Room(course.getBldg(), course.getRoom());
+		this.fromTime = course.getBegin_time();
+		this.toTime = course.getEnd_time();
+		this.instructor = new Instructor(course.getInstructor_first(), course.getInstructor_last());
+		if (course.getMonday()) this.days += "M";
+		if (course.getTuesday()) this.days += "T";
+		if (course.getWednesday()) this.days += "W";
+		if (course.getThursday()) this.days += "R";
+		if (course.getFriday()) this.days += "F";
+		if (course.getSaturday()) this.days += "S";
 	}
 	
-	public void setRoom(String room) {
+	public void setRoom(IRoom room) {
 		this.room = room;
 	}
 	
-	public void setCourse(String course) {
+	public void setCourse(ICourse course) {
 		this.course = course;
 	}
 	
@@ -40,34 +43,33 @@ public class Schedule implements ISchedule {
 	public void setInstructor(Instructor instructor) {
 		this.instructor = instructor;
 	}
+	
+	public void setDays(String days) {
+		this.days = days;
+	}
 
 	@Override
-	public String getRoom() {
-		// TODO Auto-generated method stub
+	public IRoom getRoom() {
 		return this.room;
 	}
 
 	@Override
 	public LocalTime getFromTime() {
-		// TODO Auto-generated method stub
 		return this.fromTime;
 	}
 
 	@Override
 	public LocalTime getToTime() {
-		// TODO Auto-generated method stub
 		return this.toTime;
 	}
 
 	@Override
-	public String getInstructor() {
-		// TODO Auto-generated method stub
-		return this.instructor.toString();
+	public IInstructor getInstructor() {
+		return this.instructor;
 	}
 
 	@Override
-	public String getCourse() {
-		// TODO Auto-generated method stub
+	public ICourse getCourse() {
 		return this.course;
 	}
 	
@@ -76,11 +78,12 @@ public class Schedule implements ISchedule {
 	}
 	
 	public String toString() {
-		return "<Course: " + course + "\n" 
-				+ "Room: " + room + "\n"
-				+ "Time: " + fromTime + " -> " + toTime + "\n"
-				+ "Days: " + days + "\n"
-				+ "Instructor: " + instructor.toString() + "/>\n";
+		return (fromTime == null ? "NA" : fromTime) + "-" + (toTime == null ? "NA" : toTime) + " " + course + ", " + days + ", " + instructor;
+	}
+
+	@Override
+	public int compareTo(ISchedule o) {
+		return toString().compareTo(o.toString());
 	}
 
 }

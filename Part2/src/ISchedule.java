@@ -1,9 +1,9 @@
 import java.time.LocalTime;
 
-public interface ISchedule {
-	String getRoom();
+public interface ISchedule extends Comparable<ISchedule> {
+	IRoom getRoom();
 	LocalTime getFromTime();
 	LocalTime getToTime();
-	String getInstructor();
-	String getCourse();
+	IInstructor getInstructor();
+	ICourse getCourse();
 }
