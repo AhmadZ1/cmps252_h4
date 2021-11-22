@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import org.junit.jupiter.api.Test;
 
 class HtmlToCsvTest {
-	static final String csv_files_path = "C:\\Users\\acer\\OneDrive\\Desktop\\Test\\";
+	static final String csv_files_path = "C:\\Users\\acer\\OneDrive\\Desktop\\cmps252_h4\\Files\\";
 
 	String[] getArray(char C) throws Exception {
 		String text = new String(Files.readAllBytes(Paths.get(csv_files_path + C + ".csv")), StandardCharsets.UTF_8);

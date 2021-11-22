@@ -1,11 +1,18 @@
 import java.io.File;
+import java.io.IOException;
 import java.io.PrintStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class HtmlToCsv implements IHtmlToCsv {
+	/***
+	 * {@summary} reads an html page of the dynamic course schedule and puts the data in a csv file
+	 * @param htmlFile the path of the html file to be read
+	 * @param csvFile  the path of the csv file to be written to
+	 * @throws IOException
+	 */
 	@Override
-	public void htmlToCsv(String htmlFile, String csvFile) throws Exception {
+	public void htmlToCsv(String htmlFile, String csvFile) throws IOException {
 		File f = new File(csvFile);
 		if (f.exists()) f.delete();
 		String html = Files.readString(Path.of(htmlFile));

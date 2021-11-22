@@ -6,4 +6,5 @@ public interface ISchedule extends Comparable<ISchedule> {
 	LocalTime getToTime();
 	IInstructor getInstructor();
 	ICourse getCourse();
+	DayOfWeek getDay();
 }
